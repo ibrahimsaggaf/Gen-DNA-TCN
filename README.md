@@ -56,6 +56,11 @@ to select synthetic sequences using bin-based sampling execute:
 code
 ```
 
+to compute Levenshtein distance between sequences execute:
+```
+code
+```
+
 ## The code
 explain each file in the code directory
 
