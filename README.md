@@ -17,7 +17,7 @@ This is a python implementation of the synthetic promoter sequence generation me
 </p>
 
 # Usage
-This repository contains the implementation of Gen-DNA-TCN. The implementation is built in Python3 (version 3.10.12) using Scikit-learn, Levenshtein, and the deep learning library Pytorch.
+This repository contains the implementation of the Gen-DNA-TCN model. The implementation is built in Python3 (version 3.10.12) using Scikit-learn, Levenshtein, and the deep learning library Pytorch.
 
 ## Requirements
 - torch==2.1.2
