@@ -66,7 +66,7 @@ code
 explain each file in the code directory
 
 # Availability
-add data and saved models repos
+The models' checkpoints and the generated synthetic yeast promoter DNA sequences used in this work can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18182470.svg)](https://doi.org/10.5281/zenodo.18182470)
 
 # Acknowledgment
-
+The authors acknowledge the support by the School of Computing and Mathematical Sciences and the Birkbeck GTA programme.
