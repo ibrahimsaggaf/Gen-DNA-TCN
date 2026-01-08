@@ -42,7 +42,7 @@ To train Gen-DNA-TCN (**Model 3**) that does not use the pre-trained Pre-DNA-TCN
 code
 ```
 
-To generate synthetic yeast promoter DNA sequences using the **first type** of starting nucleotides** (i.e. starting nucleotides are extracted from the real 56,879 training sequences) execute:
+To generate synthetic yeast promoter DNA sequences using the **first type** of starting nucleotides (i.e. starting nucleotides are extracted from the real 56,879 training sequences) execute:
 ```
 code
 ```
