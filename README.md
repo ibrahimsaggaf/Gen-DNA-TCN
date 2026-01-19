@@ -13,7 +13,7 @@ This is a python implementation of the synthetic promoter sequence generation me
 ```
 
 <p align="center">
-  <img src="images/Flowchart.png" width="700" title="Gen-DNA-TCN flowchart">
+  <img src="images/Flowchart.png" width="500" title="Gen-DNA-TCN flowchart">
 </p>
 
 # Usage
