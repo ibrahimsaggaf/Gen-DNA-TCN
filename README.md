@@ -29,7 +29,28 @@ This repository contains the implementation of the Gen-DNA-TCN model. The implem
 ## Tutorial 
 To train the Gen-DNA-TCN (**Model 1**) that directly exploits the embedding layers of the pre-trained Pre-DNA-TCN model from the recent Random Promoter DREAM Challenge [(Rafi et al., 2025)](https://www.nature.com/articles/s41587-024-02414-w) execute:
 ```
-code
+python3 main.py\
+--mode training\
+--model 1\
+--file_train_seq training_sequences.txt\
+--file_val_seq validation_sequences.txt\
+--em_dim 100\
+--out_size 1\
+--c_size 384\
+--max_seq_len 10\
+--k_size 3\
+--stride 1\
+--dropout 0.1\
+--em_dropout 0.1\
+--epochs 1000\
+--b_size 1024\
+--lr 2e-3\
+--hist_len 5\
+--clip 100.0\
+--pre_checkpoint Pre-DNA-TCN.pt\  # The saved checkpoint for the pre-trained Pre-DNA-TCN model from the recent Random Promoter DREAM Challenge
+--device 0\                       # GPU device id if available otherwise ignore\
+--seed 1111\
+--res_path                        # The path where the results are saved
 ```
 <br/><br/>
 To train Gen-DNA-TCN (**Model 2**) that exploits the 56,879 yeast promoter DNA training sequences for both Pre-DNA-TCN model pre-training and for the second stage of the Gen-DNA-TCN model training execute:
