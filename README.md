@@ -167,11 +167,17 @@ python3 main.py\
 
 ## The code
 Here we briefly describe each `.py` file in the **code** folder.
+
 `main.py` Runs the proposed Gen-DNA-TCN model.
+
 `models.py` Includes the character-level TCN network implementation.
+
 `train.py` Trains the Gen-DNA-TCN model.
+
 `generate.py` Generates synthetic sequences using the the Gen-DNA-TCN model.
+
 `sample.py` Conducts bin-based and random sampling.
+
 `config.py` and `utils.py` Include some configurations and helper functions.
 
 # Availability
