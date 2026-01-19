@@ -129,8 +129,6 @@ python3 main.py\
  --pre_checkpoint Pre-DNA-TCN.pt\           # The saved checkpoint for the pre-trained Pre-DNA-TCN model from the recent Random Promoter DREAM Challenge
  --gen_checkpoint Model_1_Gen-DNA-TCN.pt\   # The saved checkpoint for the Gen-DNA-TCN model
  --clf_checkpoint Model_1_clf.pt\           # The saved checkpoint for the Gen-DNA-TCN model classification head
- --device 0\                                # GPU device id if available otherwise ignore\
- --seed 1111\
  --res_path .                               # The path where the results are saved
 ```
 <br/><br/>
@@ -155,8 +153,6 @@ python3 main.py\
  --pre_checkpoint Pre-DNA-TCN.pt\           # The saved checkpoint for the pre-trained Pre-DNA-TCN model from the recent Random Promoter DREAM Challenge
  --gen_checkpoint Model_1_Gen-DNA-TCN.pt\   # The saved checkpoint for the Gen-DNA-TCN model
  --clf_checkpoint Model_1_clf.pt\           # The saved checkpoint for the Gen-DNA-TCN model classification head
- --device 0\                                # GPU device id if available otherwise ignore\
- --seed 1111\
  --res_path .                               # The path where the results are saved
 ```
 <br/><br/>
