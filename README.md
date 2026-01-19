@@ -50,7 +50,7 @@ python3 main.py\
 --pre_checkpoint Pre-DNA-TCN.pt\  # The saved checkpoint for the pre-trained Pre-DNA-TCN model from the recent Random Promoter DREAM Challenge
 --device 0\                       # GPU device id if available otherwise ignore\
 --seed 1111\
---res_path                        # The path where the results are saved
+--res_path .                      # The path where the results are saved
 ```
 <br/><br/>
 To train Gen-DNA-TCN (**Model 2**) that exploits the 56,879 yeast promoter DNA training sequences for both Pre-DNA-TCN model pre-training and for the second stage of the Gen-DNA-TCN model training execute:
