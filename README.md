@@ -1,8 +1,8 @@
-# Synthetic DNA sequence generation, Autoregressive generative model, Gene expression regulation
+# Functional Yeast Promoter Sequence Design Using Autoregressive Generative Models
 This is a python implementation of the synthetic promoter sequence generation method (namely **Gen-DNA-TCN**) reported in:
 ```
 @article{...,
-  title={Synthetic DNA sequence generation, Autoregressive generative model, Gene expression regulation},
+  title={Functional Yeast Promoter Sequence Design Using Autoregressive Generative Models},
   author={Alsaggaf, Ibrahim and Freitas, Alex A. and de Magalhães, João Pedro and Wan, Cen},
   journal={...},
   pages={...},
